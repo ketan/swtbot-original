@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SWTBot JFace test plugin
+Bundle-SymbolicName: org.eclipse.swtbot.jface
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Import-Package: org.apache.log4j;version="1.2.13",
+ org.eclipse.jface.window,
+ org.eclipse.jface.wizard,
+ org.eclipse.swt.widgets,
+ org.eclipse.swtbot.swt.finder,
+ org.eclipse.swtbot.swt.finder.exceptions,
+ org.eclipse.swtbot.swt.finder.junit,
+ org.eclipse.swtbot.swt.finder.widgets
